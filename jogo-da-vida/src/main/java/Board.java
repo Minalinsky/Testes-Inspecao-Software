@@ -28,6 +28,14 @@ public class Board {
 		this.printBoard();
 	}
 	
+	public void setBoard(int board[][]) {
+		this.board = board;
+	}
+	
+	public int[][] getBoard() {
+		return this.board;
+	}
+	
 	// Prints the current state of the board
 	private void printBoard() {
 		for(int i = 0; i < this.size; i ++) {
