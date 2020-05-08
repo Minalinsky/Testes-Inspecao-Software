@@ -1,5 +1,6 @@
 /* Nomes:
  * Alyson Matheus Maruyama Nascimento - 8532269
+ * Felipe Tiago De Carli - 10525686
  * [ INSERIR NOME ]
  */
 
@@ -9,8 +10,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Board board = new Board();
+		System.out.println(board.getBoard().length);
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1 - Próximo Estado\nQualquer outro valor - SAIR");
+		System.out.println("1 - Prï¿½ximo Estado\nQualquer outro valor - SAIR");
 		int op = scanner.nextInt();
 		
 		while(op == 1) {
