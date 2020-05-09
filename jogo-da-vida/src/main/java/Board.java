@@ -66,11 +66,12 @@ public class Board {
 	private int processCell(int x, int y) {
 		int currentValue = this.board[x][y];
 		int numberOfNeighbours = this.countNeighbours(x, y);
-		
 		if(numberOfNeighbours == 2) return currentValue;
 		
 		if(currentValue == 1) { // Alive Cells
-			if(numberOfNeighbours < 2 || numberOfNeighbours > 3) return 0;
+			if(numberOfNeighbours < 2 || numberOfNeighbours > 3) {
+				return 0;
+			}
 		} else { // Dead Cells
 			if(numberOfNeighbours == 3) return 1;
 		}
