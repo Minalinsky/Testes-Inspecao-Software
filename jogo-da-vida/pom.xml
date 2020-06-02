@@ -4,6 +4,33 @@
   <artifactId>jogo-da-vida</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>jogo-da-vida</name>
+  <build>
+	<plugins>
+		<plugin>
+	    <groupId>org.pitest</groupId>
+	    <artifactId>pitest-maven</artifactId>
+	    <version>0.32</version>
+		</plugin>
+	</plugins>
+  </build>
+  
+  <reporting>
+    <plugins>
+        <plugin>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-maven</artifactId>
+            <version>0.32</version>
+            <reportSets>
+                <reportSet>
+                    <reports>
+                        <report>report</report>
+                    </reports>
+                </reportSet>
+            </reportSets>
+        </plugin>
+    </plugins>
+</reporting>
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
