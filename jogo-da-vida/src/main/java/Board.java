@@ -56,7 +56,6 @@ public class Board {
 				if(i != x || j != y) {
 					if(this.board[i][j] == 1) count++;
 				}
-				
 			}
 		}
 		return count;
@@ -75,7 +74,6 @@ public class Board {
 		} else { // Dead Cells
 			if(numberOfNeighbours == 3) return 1;
 		}
-
 		return currentValue;
 	}
 }

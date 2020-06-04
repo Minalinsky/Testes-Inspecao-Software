@@ -9,7 +9,7 @@ public class BoardTestCase {
 	private int boardSize = 6;
 	
 	private int[][][] boardSetup0 = new int[][][] {
-		{ //input
+		{ // input
 			{ 0, 0, 0, 0, 0, 0 },
 			{ 0, 1, 1, 0, 0, 0 },
 			{ 0, 0, 0, 0, 1, 1 },
@@ -17,7 +17,7 @@ public class BoardTestCase {
 			{ 1, 1, 0, 0, 0, 0 },
 			{ 1, 1, 0, 0, 0, 1 }
 		},
-		{ //expected
+		{ // expected
 			{ 0, 0, 0, 0, 0, 0 },
 			{ 0, 0, 0, 0, 0, 0 },
 			{ 0, 1, 0, 1, 1, 1 },
