@@ -26,7 +26,6 @@ public class Board {
 		this.board = aux;
 		System.out.println("Novo Tabuleiro:");
 		this.printBoard();
-		return this.board;
 	}
 	
 	public void setBoard(int board[][]) {
