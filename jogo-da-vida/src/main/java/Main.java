@@ -11,7 +11,8 @@ public class Main {
 		Board board = new Board();
 		System.out.println(board.getBoard().length);
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1 - Pr�ximo Estado\nQualquer outro valor - SAIR");
+
+		System.out.println("1 - Proximo Estado\nQualquer outro valor - SAIR");
 		int op = scanner.nextInt();
 		
 		while(op == 1) {
