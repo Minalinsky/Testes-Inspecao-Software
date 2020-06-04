@@ -12,7 +12,7 @@ public class Board {
 		 }
 	}
 	
-	public int[][] nextState() {
+	public void nextState() {
 		int[][] aux = new int[this.size][this.size];
 		
 		System.out.println("Antigo Tabuleiro:");
