@@ -10,3 +10,4 @@ Todas as implementações foram feitas utilizando o **Eclipse IDE**. Sendo assim
 - Eclipse IDE para inicialização dos projetos
 - JUnit
 - EclEmma
+- PIT
