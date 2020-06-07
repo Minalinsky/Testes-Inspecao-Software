@@ -74,15 +74,6 @@ public class Board {
 			if(numberOfNeighbours == 3) return 1;
 		}		
 		
-//		if(numberOfNeighbours == 2) return currentValue;
-//		
-//		if(currentValue == 1) { // Alive Cells
-//			if(numberOfNeighbours < 2 || numberOfNeighbours > 3) {
-//				return 0;
-//			}
-//		} else { // Dead Cells
-//			if(numberOfNeighbours == 3) return 1;
-//		}
 		return currentValue;
 	}
 }
